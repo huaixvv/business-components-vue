@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <remote-select></remote-select>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import remoteSelect from './components/remoteSelect.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    remoteSelect
   }
 }
 </script>
